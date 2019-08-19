@@ -144,9 +144,9 @@ span.icon{
 
     #explanation{
         position: absolute;
-        width: 90%;
+        width: 98%;
         height: auto;
-        left: 5%;
+        left: 1%;
         bottom: 0;
         font-size: 0.85em;
         overflow-y: scroll;
