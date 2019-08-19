@@ -111,7 +111,7 @@ span.icon{
 }
 #explanation{
     position: absolute;
-    border: 1px solid red;
+    border: 1px solid blue;
     width: 60%;
     height: 15%;
     left: 20%;
@@ -120,7 +120,7 @@ span.icon{
     padding: 1%;
     display: none;
 }
-@media only screen and (orientation: portrait) {
+@media screen and (max-width: 550px) {
     #qArea{
             position: relative;
             height: 60%;
@@ -144,9 +144,9 @@ span.icon{
 
     #explanation{
         position: absolute;
-        width: 98%;
+        width: 95%;
         height: auto;
-        left: 1%;
+        left: 2.5%;
         bottom: 0;
         font-size: 0.85em;
         overflow-y: scroll;
@@ -162,7 +162,13 @@ span.icon{
         left: 68%;
     }
     .back{
-        left: 44%;
+        left: 38%;
+    }
+    .decrease{
+        font-size: 0.9em;
     }
 
 }
+
+
+ 

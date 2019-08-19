@@ -176,10 +176,10 @@ let totalQ = 5;
             if(userName){
                 if(page == 1){
                 qArea.innerHTML = `<h2>Instructions:</h2>
-                <li>You have ${totalQ} questions to answer in ${seconds} seconds.</li>
-                <li>Wrong answers will be penalized; when in doubt leave it blank.</li>
-                <li>Once you click on the Next button, you can't go back.</li>
-                <li>Click Start to begin Test, Good luck!</li>
+                <li class="decrease">You have ${totalQ} questions to answer in ${seconds} seconds.</li>
+                <li class="decrease">Wrong answers will be penalized; when in doubt leave it blank.</li>
+                <li class="decrease">Once you click on the Next button, you can't go back.</li>
+                <li class="decrease">Click Start to begin Test, Good luck!</li>
                     <button id="next">Start</button>`;
                     
                 }else if(page >= 2 && page <7){
