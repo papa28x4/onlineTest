@@ -122,25 +122,46 @@ span.icon{
 }
 @media only screen and (orientation: portrait) {
     #qArea{
-            height: 50%;
-            width: 90%;   
-}
-#explanation{
-    position: absolute;
-    width: 90%;
-    height: auto;
-    left: 5%;
-    top: 78%;
-    font-size: 0.95em;
-}
-#numQ{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 12%;
-}
-.back{
-    top: 68%;
-    left: 44%;
-}
+            position: relative;
+            height: 60%;
+            width: 90%;
+            top: -5%;
+        }
+    #numQ{
+            margin-top: 0;
+        }
+    #timer{
+
+        width: 60px;
+        height: 60px;  
+    }
+
+    #timer span{
+        right: 65%;
+        top: 10%;
+        font-size: 180%;
+    }
+
+    #explanation{
+        position: absolute;
+        width: 90%;
+        height: auto;
+        left: 5%;
+        top: 78%;
+        font-size: 0.95em;
+    }
+    #numQ{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 12%;
+    }
+    #next, .review, .back {
+        top: 82%;
+        left: 68%;
+    }
+    .back{
+        left: 44%;
+    }
+
 }
