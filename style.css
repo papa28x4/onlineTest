@@ -147,8 +147,9 @@ span.icon{
         width: 90%;
         height: auto;
         left: 5%;
-        top: 78%;
+        bottom: 2%;
         font-size: 0.95em;
+        overflow-y: scroll;
     }
     #numQ{
         position: absolute;
