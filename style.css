@@ -147,7 +147,7 @@ span.icon{
         width: 90%;
         height: auto;
         left: 5%;
-        bottom: 2%;
+        bottom: 0;
         font-size: 0.95em;
         overflow-y: scroll;
     }
