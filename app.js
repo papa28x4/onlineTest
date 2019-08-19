@@ -143,6 +143,7 @@ let totalQ = 5;
 
 
     const feedback = (position)=>{
+        timer.style.display = 'none';
         const options = document.querySelectorAll('input[name="options"]')
         let checked = 0
         options.forEach((option, index)=>{
@@ -215,7 +216,7 @@ let totalQ = 5;
                 page ++
             }else{
                 name.classList.add('error')
-                name.nextElementSibling.innerHTML = " <span style='color: red;'>Please Enter Your Name<span>"
+                name.nextElementSibling.innerHTML = " <span class='errMessage' style='color: red;'>Please Enter Your Name<span>"
             }
         }  
         else if(event.target.className == "review"){

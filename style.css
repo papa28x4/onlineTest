@@ -167,7 +167,11 @@ span.icon{
     .decrease{
         font-size: 0.9em;
     }
-
+    .errMessage{
+        display: block;
+        margin-left: 26%;
+        font-size: 0.75em;
+    }
 }
 
 
