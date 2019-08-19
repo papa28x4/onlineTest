@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5em;
+}
+#main{
+    background: #8E24AA;
+    background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+    height: 100vh;
+    display: grid;
+}
+#qArea{
+    background-color: #efefef;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    user-select: none;
+}
+li{
+    list-style: none;
+    padding: 1% 0;
+}
+#numQ{
+    position: absolute;
+    color: rgb(209, 215, 221);
+    padding-left: 2%;
+    width: 100%;
+    top: 0;
+    right: 1%;
+    font-size: 200%;
+    text-align: center;
+}
+#numQ span{
+    font-size: 0.7em;
+}
+#next, .review, .back {
+    position: absolute;
+    top: 68%;
+    left: 68%;
+    padding: 1%;
+    color: rgb(31, 31, 82);
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+}
+.back{
+    top: 68%;
+    left: 58%;
+}
+#timer{
+    position: absolute;
+    display: none;
+    color: white;
+    right: 5%;
+    top: 5%;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;  
+}
+.error{
+    border: 2px solid red;
+}
+#timer span{
+    position: absolute;
+    display: inline-block;
+    right: 65%;
+    top: 15%;
+    width: 5%;
+    height: 5%;
+    font-size: 250%;
+}
+#timer.red span{
+    color: red;
+}
+#name, #subjects{
+    display: inline-block;
+    padding: 1% 2%;
+    margin: 10% 0 0 33%;
+    width: 30%;
+}
+#subjects{
+    margin-top: 0;
+}
+
+label.answer{
+    color: green;
+    font-weight: bold;
+    padding-right: 1%;
+    border: 2px solid green
+}
+label.wrong{
+    color: red;
+    font-weight: bold;
+}
+span.icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.hit{
+    background: url('images/tick.png') no-repeat;
+    background-position: 0;
+    background-position-y: 5px;
+}
+.miss{
+    background: url('images/cross.png') no-repeat;
+    background-position: 0;
+    background-position-y: 5px;
+}
+#explanation{
+    position: absolute;
+    border: 1px solid red;
+    width: 60%;
+    height: 15%;
+    left: 20%;
+    bottom: 2%;
+    background-color: #efefef;
+    padding: 1%;
+    display: none;
+}
+@media only screen and (orientation: portrait) {
+    #qArea{
+            height: 50%;
+            width: 90%;   
+}
+#explanation{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 5%;
+    top: 78%;
+    font-size: 0.95em;
+}
+#numQ{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 12%;
+}
+.back{
+    top: 68%;
+    left: 44%;
+}
+}
