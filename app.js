@@ -22,7 +22,7 @@ let totalQ = 5;
                         ["Envy is linked with Greed but Jealousy is linked with fear. You feel envy about something you don't own but want, but you feel jealous over something you already have but are scared to lose.", "When compliment you admire (praise, appreciate); when you complement something you make it better (improve, add to it)","Yoke is some form of bondage, burden or limiting condition and should not be confused with Yolk the yellow inner part of an egg", "Illusive: think illusion (imaginery doesn't exist); Elusive: Think elude (Something you can't get)", "All together: all in one place, everything present or all here; Altogether: Completely, all things considered, on the whole. <br> Now you know that Altogether is altogether different from all together"
                         ],
 
-                        ["Recall BODMAS. So you should perform multiplication before Addition and subtraction. <br> 5 + 48 - 3 = 50", "Number of days => (4 * 12)/6 = 8 days", "Area = πr<sup>2</sup> => 154cm<sup>2</sup> = 22/7 * r<sup>2</sup> <br> => r = 7cm, D= 2*r =14cm <br> Perimeter = πD = 22/7 * 14cm = 44cm", "hyp = sqrt{opp<sup>2</sup> + adj<sup>2</sup>} <br> hyp = sqrt{(6cm)<sup>2</sup>+(8cm)<sup>2</sup>} = 10cm", "Observe the difference between nth term and n+1 term keeps increasing by 4 i.e. 3-2 = 1, 8-3 = 5, 17-8 = 9, 30-17=13, so the next difference should be 13 + 4 = 17. Hence, x => 30 + 17 = 43"
+                        ["Recall BODMAS. So you should perform multiplication before Addition and subtraction. <br> 5 + 48 - 3 = 50", "Number of days => (4 * 12)/6 = 8 days", "Area = πr<sup>2</sup> => 154cm<sup>2</sup> = 22/7 * r<sup>2</sup> <br> => r = 7cm, D= 2*r =14cm <br> Perimeter = πD = 22/7 * 14cm = 44cm", "hyp = sqrt{opp<sup>2</sup> + adj<sup>2</sup>} <br> hyp = sqrt{(6cm)<sup>2</sup>+(8cm)<sup>2</sup>} = 10cm", "Observe the difference between nth term and n+1 term keeps increasing by 4 i.e. 3-2 = 1, 8-3 = 5, 17-8 = 9, 30-17=13, so the next difference should be 13 + 4 = 17. Hence, x => 30 + 17 = 47"
                         ]
                     ]
     const qArea = document.querySelector('#qArea')
@@ -57,8 +57,8 @@ let totalQ = 5;
                     <br><br>
                     <select id="subjects">
                         <option value="GNS">GNS</option>
-                        <option value="English" >English</option>
-                        <option value="Maths" selected>Maths</option>
+                        <option value="English" selected >English</option>
+                        <option value="Maths" >Maths</option>
                     </select>
                     
                     <button id="next">Next</button>`
